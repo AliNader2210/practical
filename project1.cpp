@@ -1,10 +1,11 @@
 #include <iostream>
 using namespace std;
-int sum2(int, int);
+
+int sum(int, int);
 int main() {
 	cout << "Hello World!\n";
-	cout << "modified\n";
+	cout << "Modified \n";
 }
-int sum2(int x, int y) {
+int sum(int x, int y) {
 	return x + y;
 }
